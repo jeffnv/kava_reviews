@@ -1,29 +1,30 @@
-kava_reviews
+kava reviews
 ============
-
-worlds #1 kava review destination
-
 
 **models**
 
 ***user***
-* display_name
-* email
-* password_digest
-* session_token
+
+* `display_name`
+* `email`
+* `password_digest`
+* `session_token`
 
 ***Supplier***
-* name
-* url
-* location
+
+* `name`
+* `url`
+* `location`
 
 ***Product***
-* name
-* url
-* price
-* supplier_id
+
+* `name`
+* `url`
+* `price`
+* `supplier_id`
 
 ***Review***
+
 * body
 * title
 * score
