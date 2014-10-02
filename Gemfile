@@ -15,3 +15,5 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'byebug', group: [:development, :test]
 gem 'binding_of_caller', group: [:development]
 gem 'better_errors', group: [:development]
+gem 'backbone-on-rails'
+gem 'bootstrap-sass'
