@@ -13,4 +13,5 @@
 #
 
 class Company < ActiveRecord::Base
+  include Reviewable
 end
