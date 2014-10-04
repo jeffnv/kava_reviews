@@ -15,6 +15,7 @@ Views:
   
   Companies
     Companies Index - companies paginated, avg review and avg product review
+      admin can add new companies
     Company Show - List of products sorted by avg review, alphabetical,
       also, address, hours, google maps? (unless mobile?)
 
@@ -22,7 +23,8 @@ Views:
     Index - All products sorted by avg review, cool to see best kavas by 
       cultivar, origin, company. Also like to see acetone scores and be able
       to sort by scores.
-    Show - link to company show page, avg score, can leave a new reivew/score
-      like to have image of bag, powder, and acetone test result. Also, origin
-      country, island, etc, and cultivar.
+    Show - link to company show page, avg score, acetone score/image, 
+      can leave a new reivew/score like to have image of bag, powder, and 
+      acetone test result. Also, origin country, island, etc, and cultivar. 
+      List of reviews by most recent.
 
