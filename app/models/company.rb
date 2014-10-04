@@ -1,6 +1,6 @@
 # == Schema Information
 #
-# Table name: suppliers
+# Table name: companies
 #
 #  id         :integer          not null, primary key
 #  name       :string(255)
@@ -12,5 +12,5 @@
 #  updated_at :datetime
 #
 
-class Supplier < ActiveRecord::Base
+class Company < ActiveRecord::Base
 end

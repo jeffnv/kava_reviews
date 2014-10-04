@@ -9,7 +9,7 @@ KavaReviews.Routers.AppRouter = Backbone.Router.extend({
         var storiesIndex = new KavaReviews.Views.StoriesIndex({
             collection: KavaReviews.stories
         });
-        KavaReviews.stories.fetch();
+        KavaReviews.fetch();
         this.swapView(storiesIndex.render());
     },
     swapView: function(view) {
