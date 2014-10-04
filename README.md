@@ -8,6 +8,7 @@ Features:
 [ ] -  comments on stories, reviews, companies
 
 Views:
+
   News
     News Index - all stories paginated, comment count visible
     News Show - Comments Visible
