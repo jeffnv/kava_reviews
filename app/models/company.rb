@@ -14,4 +14,5 @@
 
 class Company < ActiveRecord::Base
   include Reviewable
+  has_many :products
 end
