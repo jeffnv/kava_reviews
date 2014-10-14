@@ -22,7 +22,7 @@ Views:
   Products
     Index - All products sorted by avg review, cool to see best kavas by 
       cultivar, origin, company. Also like to see acetone scores and be able
-      to sort by scores.
+      to sort by scores. Pitchfork style: squares for each review with image.
     Show - link to company show page, avg score, acetone score/image, 
       can leave a new reivew/score like to have image of bag, powder, and 
       acetone test result. Also, origin country, island, etc, and cultivar. 
