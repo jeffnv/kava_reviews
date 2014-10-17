@@ -1,8 +1,8 @@
 KavaReviews.Collections.Companies = Backbone.Collection.extend({
-  url: 'api/companies',
+    url: 'api/companies',
 
-  model: KavaReviews.Models.Company
+    model: KavaReviews.Models.Company
 
 });
 
-KavaReviews.Collections.companies = new KavaReviews.Collections.Companies();
+KavaReviews.Collections.companies = new KavaReviews.Collections.Companies(COMPANIES);

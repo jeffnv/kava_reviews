@@ -1,0 +1,32 @@
+<button id="new-review-button">
+  Submit New Review
+</button>
+
+<form class="hidden" id="new-review-form">
+  <br/>
+  <div id="company-select" class="form-group">
+  <label for="">Company</label>
+    <select id="company-name">
+     <% KavaReviews.Collections.companies.each(function(company){ %>
+       <option value="<%=company.id%>"><%= company.escape("name") %></option>
+     <% }) %>
+     <option value="-1">Add New Company</option>
+  </select>
+ </div>
+  
+  <div id= "new-company-input" class="form-group hidden">
+    <label for="">New Company Name</label>
+    <input type="text" name="new_company_name" id="" value="" />
+  </div>
+  <div class="form-group">
+   <label for="">Title:</label>
+   <input type="text" name="title" id="title" value="" placeholder="Vanuatu police..." />
+  </div>
+  <br/>
+  <div class="form-group">
+    <label for="">Description:</label>
+    <textarea name="description" id ="description" rows="8" cols="40"></textarea>
+  </div>
+  <input type="submit" name="" id="" value="Submit Article" />
+  <button id="cancel-submission">Cancel Submission</button>
+</form>

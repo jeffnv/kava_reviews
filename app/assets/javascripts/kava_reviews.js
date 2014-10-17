@@ -26,6 +26,3 @@ window.KavaReviews = {
 
 };
 
-$(document).ready(function() {
-    KavaReviews.initialize();
-});
